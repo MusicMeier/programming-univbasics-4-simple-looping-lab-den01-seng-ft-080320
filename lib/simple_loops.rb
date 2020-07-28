@@ -28,4 +28,11 @@ def output_array (array)
   end
 end
 
-def 
+def return_string_array(string)
+  counter = 0
+  
+  while counter < array.length do
+    return array
+    counter += 1
+  end
+end
