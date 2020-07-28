@@ -30,9 +30,10 @@ end
 
 def return_string_array(array)
   counter = 0
-  
+  new_array = []
   while counter < array.length do
-    return array.to_s
+    puts new_array.push(array.to_s)
     counter += 1
   end
+  new_array
 end
